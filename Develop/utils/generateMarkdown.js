@@ -1,7 +1,7 @@
 // function to generate markdown for README
-function generateMarkdown(data, githubInfo) {
+function generateMarkdown(data) {
   return `# ${data.title}
-  ${data.badge}
+  ${data.license}
 
   ##Description
 
