@@ -8,6 +8,13 @@ The purpose of this project is for a user to be able to generate a professional 
 ## Functions
 This project highlighted what we had learned recently in bootcamp about node.js.  This included having to install the npm's (inquirer) and using the built-in function fs to write the ReadMe file.  It also required importing the function generateMarkdown() into the index.js file.
 
+## Screenshot Link
+https://drive.google.com/file/d/1qqwNUlnK5iElbjRQuEbDs0wtJMGs62qK/view?usp=sharing
+
+## Video Link
+https://drive.google.com/file/d/1ItbYxRvhgmZjUWeyepjXOVqoDk2E3Z70/view?usp=sharing
+
+
 
 
 
