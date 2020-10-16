@@ -28,7 +28,7 @@ function generateMarkdown(data) {
 
   ##License
 
-  ${data.license}
+  ${about}
 
   ##Contributions
 
@@ -40,8 +40,9 @@ function generateMarkdown(data) {
 
   ##Questions
 
-  ${data.gitHubUser}
-  ${data.email}
+  github.com/${data.gitHubUser}
+
+  If there are any questions about this project you can reach me at ${data.email} and I will get back to you as soon as possible.
 
 `;
 }
