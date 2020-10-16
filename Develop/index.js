@@ -59,7 +59,7 @@ const questions = [
     }
 
 ];
-// function used to determine what license was chosen and will later be used in init function to display badge image through generateMarkdown.
+// function used to determine what license was chosen and will later be used in init() function to display badge image through generateMarkdown.
 const getLicense = (license) => {
     
     if(license === "MIT") {
@@ -73,7 +73,7 @@ const getLicense = (license) => {
         
     }
 }
-
+// function to get information about each license from the link given above in getLicense() respectively.  I am sure there is a better method to read/write the text directly from the url instead of copying and pasting paragraphs in my line of code and will look into that in the future. I assume what I did was bad practice.
 const getAbout = (license) => {
 
     if(license === "MIT") {
@@ -129,22 +129,16 @@ const getAbout = (license) => {
     }
 }
 
-
-
-// function to write README file
-// function writeToFile(fileName, data) {
-//     generateMarkdown(data);
-// }
-
 // function to initialize program
 function init() {
     // inquirer prompt will cause the questions to appear for user
     inquirer
     .prompt(questions)
     .then(function(data){
+        // set badge and about equal to the information called in function.  Will use badge and about in generateMarkdown() to get data from function to display.
        badge = getLicense(data.license);
        about = getAbout(data.license);
-        // console.log(badge)
+       
     
     // writes file 'README.md'
     fs.writeFile("READMEE.md", generateMarkdown(data), function(error) {

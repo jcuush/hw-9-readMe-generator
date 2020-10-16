@@ -1,30 +1,31 @@
-# Readme generator
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# readme generator
+  
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
 
-  ##Description
+  ## Description
 
-  This project aims to help a user generate a good readme from the information they enter
+  creating a good readme for user
 
   ## Table of Contents
 
-  [Description](#Description)
-  [Installation](#Installation)
-  [Usage](#Usage)
-  [License](#License)
-  [Contributions](#Contributions)
-  [Test](#Test)
-  [Questions](#Questions)
+  [Description](#description)
+  [Installation](#installation)
+  [Usage](#usage)
+  [License](#license)
+  [Contributions](#contributions)
+  [Test](#test)
+  [Questions](#questions)
 
-  ##Installation
+  ## Installation
   
-  nmp i
+  npm i
 
-  ##Usage
+  ## Usage
 
-  for generating readme
+  generating readmes
 
-  ##License
+  ## License
 
    Copyright [yyyy] [name of copyright owner]
 
@@ -40,15 +41,15 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 
-  ##Contributions
+  ## Contributions
 
   me
 
-  ##Test
+  ## Test
 
   idk
 
-  ##Questions
+  ## Questions
 
   github.com/jcuush
 

@@ -1,44 +1,47 @@
 // function to generate markdown for README
+// users github url is created simply by attaching it to end of github.com/
+// the generateMardown function collects the data from function init() on index.js which collected data by using inquirer and then going through the array of questions
+// badge and about were defined by using new function getLicense and getAbout and therefore don't need 'data.' before them.
 function generateMarkdown(data) {
   return `# ${data.title}
   ${badge}
-  
 
-  ##Description
+
+  ## Description
 
   ${data.description}
 
   ## Table of Contents
 
-  [Description](#Description)
-  [Installation](#Installation)
-  [Usage](#Usage)
-  [License](#License)
-  [Contributions](#Contributions)
-  [Test](#Test)
-  [Questions](#Questions)
+  [Description](#description)
+  [Installation](#installation)
+  [Usage](#usage)
+  [License](#license)
+  [Contributions](#contributions)
+  [Test](#test)
+  [Questions](#questions)
 
-  ##Installation
+  ## Installation
   
   ${data.installation}
 
-  ##Usage
+  ## Usage
 
   ${data.usage}
 
-  ##License
+  ## License
 
   ${about}
 
-  ##Contributions
+  ## Contributions
 
   ${data.contributions}
 
-  ##Test
+  ## Test
 
   ${data.test}
 
-  ##Questions
+  ## Questions
 
   github.com/${data.gitHubUser}
 
