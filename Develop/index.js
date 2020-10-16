@@ -141,7 +141,7 @@ function init() {
        
     
     // writes file 'README.md'
-    fs.writeFile("READMEE.md", generateMarkdown(data), function(error) {
+    fs.writeFile("README.md", generateMarkdown(data), function(error) {
 
         if(error) {
             return console.log(error);
